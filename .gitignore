@@ -1,0 +1,7 @@
+cypress/plugins/
+cypress/support/
+node_modules/
+cypress.json
+package-lock.json
+package.json
+cypress/integration/Fase 2

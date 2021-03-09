@@ -1,0 +1,27 @@
+{
+    "razao": "Little Mix Fandom LTDA",
+    "fantasia": "Mixers",
+    "cnpj": 44153056000151,
+    "email": "littlemix@lm.io",
+    "site": "https://pt.wikipedia.org/wiki/Little_Mix",
+
+    "pais": "BRASIL",
+    "cep": 79006901,
+    "endereco": "Rua Alexandre Fleming 470",
+    "numero": "s/n",
+    "estado": "Mato Grosso do Sul",
+    "cidade": "Campo Grande",
+    "bairro": "Vila Bandeirante",
+
+    "nomeContato": "Leigh-Anne",
+    "emailContato": "leigh.anne@lm.io",
+    "foneContato": 7144444444,
+    "descricao": "Just a touch of your love",
+
+    "instituicao": "unicuritiba",
+
+    "senha": "L1ttl3Mix",
+
+    "cepInexistente": 40000000,
+    "senhaIncorreta": "LIttl3Mix"
+}
