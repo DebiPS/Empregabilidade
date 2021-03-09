@@ -103,8 +103,5 @@ describe('Faltando campos obrigatórios', () => {
         })
 
     })
-
-    it('Cadastrando empresa auxiliar', () => {
-        
-    })
+    
 })

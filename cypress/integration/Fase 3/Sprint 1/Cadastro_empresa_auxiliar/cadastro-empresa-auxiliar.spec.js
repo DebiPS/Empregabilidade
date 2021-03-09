@@ -4,7 +4,6 @@ describe('Cadastrando empresa auxiliar e verificando duplicação', () => {
     before('Acessar site', () => {
         cy.visit(Cypress.env('url_nucleo'))
         cy.viewport(1280, 720)
-        cy.wait(2000)
 
         cy.contains('Núcleo de Estágio').click()
 
@@ -22,14 +21,12 @@ describe('Cadastrando empresa auxiliar e verificando duplicação', () => {
     beforeEach('Abrindo modal de cadastro de empresa', () => {     
         //Redimensionando janela
         cy.viewport(1280, 720)
-        cy.wait(1000)
 
         //Acessando página de cadastro de vagas   
         cy.get('.sidebar-links > :nth-child(3)').click()
         cy.get('[ui-sref="nucleo.cadastro-vaga"]').click()
 
         //Acessando modal
-        cy.wait(1500)
         cy.get('[ng-click="openModalAddEmpresaAux()"]').click()
 
         //Verificando se acessou a modal
